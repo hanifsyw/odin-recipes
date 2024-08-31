@@ -1,7 +1,8 @@
 .ptitle{
     text-align:center;
     font-weight: 900;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
 }
 
 .subhead{
@@ -12,6 +13,17 @@
 }
 
 .selection{
-    text-align: center;
+    list-style-position: inside;
+    /* text-align: center; */
     display: inline;
+    padding-left: 40%;
+    background-color: aquamarine;
+    align-content: space-around;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
 }
