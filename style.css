@@ -1,3 +1,6 @@
+*{
+    background-color: #ffebcd;
+}
 .ptitle{
     text-align:center;
     font-weight: 900;
@@ -14,11 +17,10 @@
 
 .selection{
     list-style-position: inside;
-    /* text-align: center; */
+    text-align: center; 
     display: inline;
     padding-left: 40%;
-    background-color: aquamarine;
-    align-content: space-around;
+
 }
 
 img{
@@ -26,4 +28,16 @@ img{
     margin-right: auto;
     display: block;
     border-radius: 15px;
+}
+
+.intro{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.inside{
+    padding-left:15%;
+}
+
+#dayold{
+    background-color: #fde05f;
 }
